@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Stack Developer Portfolio</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="script.js" rel="script">
+  <script src="script.js?v=2"></script>
+
+</head>
+
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">Portfolio</div>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+        <li><a href="#journey" onclick="closeMenu()">Journey</a></li>
+        <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+        <li>
+          <a href="#certifications" onclick="closeMenu()">Certifications</a>
+        </li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+        <li>
+          <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">
+            🌙
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1 class="animate-text">Hi, I'm <span>Satya Sai Kiran Adimulam</span></h1>
+        <p class="tagline animate-fade">Full Stack Developer | Python & Java Enthusiast</p>
+        <div class="contact-links animate-slide">
+          <a href="mailto:adimulamkiran2@gmail.com" class="btn-contact">Email</a>
+          <a href="https://github.com/kiranadimulam2002" target="_blank" class="btn-contact">GitHub</a>
+          <a href="https://linkedin.com/in/satya-sai-kiran-adimulam-390623255/" target="_blank"
+            class="btn-contact">LinkedIn</a>
+          <a href="tel:+918790746456" class="btn-contact">Phone</a>
+        </div>
+      </div>
+
+      <div class="hero-image-container">
+        <img src="Images/beautiful-office-space-cartoon-style.jpg" alt="Developer Workspace" class="hero-banner" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p>
+        Hello! I'm an aspiring Full Stack Developer with a passion for
+        building robust and scalable web applications. I specialize in both
+        Python and Java ecosystems, allowing me to tackle diverse technical
+        challenges and deliver comprehensive solutions.
+      </p>
+      <p>
+        My journey in software development has equipped me with strong
+        problem-solving skills and a dedication to writing clean,
+        maintainable code. I'm constantly learning and staying updated with
+        the latest technologies to create impactful digital experiences.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="experience-item">
+      <h3>Core Java & MSSQL Intern</h3>
+      <p class="date">HQL Edu Tech | May 2023 - July 2023</p>
+      <p>
+        Implemented JDBC modules for performing CRUD operations on
+        relational databases. Designed normalized database schemas and
+        optimized SQL queries for better performance. Built sample Java
+        applications following OOP principles and exception handling.
+      </p>
+    </div>
+
+    <div class="experience-item">
+      <h3>Python Developer Intern</h3>
+      <p class="date">Palle Technologies | June 2024 - December 2024</p>
+      <p>
+        Worked on Python-based projects involving file handling, data
+        structures, and OOPs concepts. Developed small automation scripts
+        and console utilities, improving code efficiency and readability.
+        Gained hands-on experience in team collaboration using Git and
+        GitHub.
+      </p>
+    </div>
+
+    <div class="experience-item">
+      <h3>Shift Incharge</h3>
+      <p class="date">Zepto | July 2025 - September 2025</p>
+      <p>
+        Managed shift operations ensuring smooth workflow and timely
+        dispatch of customer orders. Gained valuable leadership and
+        coordination experience, enhancing communication and problem-solving
+        skills in fast-paced environments.
+      </p>
+    </div>
+
+    <div class="experience-item">
+      <h3>Full Stack Developer – Employee Management System</h3>
+      <p class="date">Personal Project | 2025</p>
+      <p>
+        Created an employee and salary management system using
+        <strong>Django</strong> and <strong>SQL</strong>. Designed separate
+        forms and views for managing employee and salary records. Integrated
+        Bootstrap for a clean user interface and ensured smooth CRUD
+        functionality.
+      </p>
+    </div>
+  </section>
+
+  <section id="journey">
+    <h2>My Journey</h2>
+
+    <div class="journey-item">
+      <h3>B.Tech in Electrical and Electronics Engineering (EEE)</h3>
+      <p class="date">2021 - 2024</p>
+      <p>
+        Completed <strong>Bachelor of Technology</strong> in <strong>Electrical and Electronics Engineering</strong>.
+        During my course, I worked as a <strong>Core Java and MSSQL Intern</strong> at <strong>HQL Edu Tech</strong>,
+        where I gained hands-on experience in <strong>OOPs concepts, </strong> and <strong>database</strong>.
+        I developed mini Java applications to enhance my understanding of backend development and database integration.
+      </p>
+      <p>
+        As part of my final year, I completed an academic project titled
+        <strong>"Design and Implementation of Electric Vehicle using PMSM Motor"</strong>,
+        focusing on the control, efficiency, and performance optimization of electric vehicle systems.
+      </p>
+    </div>
+
+
+    <div class="journey-item">
+      <h3>Beginning with Java and Database Concepts</h3>
+      <p class="date">2023</p>
+      <p>
+        Joined <strong>HQL Edu Tech</strong> as a
+        <strong>Core Java and MSSQL Intern</strong>, where I learned
+        <strong>OOPs principles, JDBC,</strong> and database connectivity.
+        Developed mini Java applications and improved my understanding of
+        how backend systems work with databases.
+      </p>
+    </div>
+
+    <div class="journey-item">
+      <h3>Exploring Python</h3>
+      <p class="date">2024</p>
+      <p>
+        Started my programming journey during my internship at
+        <strong>Palle Technologies</strong>, where I learned
+        <strong>Python</strong> and focused on mastering core programming
+        concepts such as data types, loops, fusnctions, and object-oriented
+        principles. Developed small console-based projects that strengthened
+        my problem-solving skills and built a strong foundation for my
+        software development journey.
+      </p>
+    </div>
+
+    <div class="journey-item">
+      <h3>Transition to Web Development</h3>
+      <p class="date">2024</p>
+      <p>
+        After graduation, I started learning
+        <strong>Full Stack Web Development</strong> using
+        <strong>Python Django, MySQL, HTML, CSS,</strong> and
+        <strong>JavaScript</strong>. Developed hands-on projects like
+        <strong>Cloud Cook (Food Delivery Platform)</strong> and an
+        <strong>Employee Management System</strong>, focusing on clean
+        architecture, authentication, and responsive UI.
+      </p>
+    </div>
+
+    <div class="journey-item">
+      <h3>Building Projects and Seeking Opportunities</h3>
+      <p class="date">2025 - Present</p>
+      <p>
+        Currently enhancing my skills through real-world projects and
+        continuous learning in both
+        <strong>Python</strong> and
+        <strong>Java Full Stack Development</strong>. Expanding my knowledge
+        in <strong>Django REST Framework, Spring Boot, APIs,</strong> and
+        <strong>database integration</strong> using
+        <strong>MySQL</strong> and <strong>MongoDB</strong>. Actively
+        seeking opportunities to contribute as a
+        <strong>Full Stack Developer</strong>
+        by building scalable, efficient, and user-focused software
+        solutions.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React.js</li>
+          <li>Bootstrap</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Python Stack</h3>
+        <ul>
+          <li>Django & Flask</li>
+          <li>FastAPI</li>
+          <li>SQLite</li>
+          <li>Pandas & NumPy</li>
+          <li>RESTful APIs</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Java Stack</h3>
+        <ul>
+          <li>Spring Boot</li>
+          <li>Spring MVC</li>
+          <li>Hibernate & JPA</li>
+          <li>Maven</li>
+          <li>Microservices</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Database & Tools</h3>
+        <ul>
+          <li>MySQL & PostgreSQL</li>
+          <li>MongoDB</li>
+          <li>Git & GitHub</li>
+          <li>Kubernetes</li>
+          <li>AWS Basics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <!-- Employee Management System -->
+      <div class="project-card">
+        <img src="Images/EMS.png" alt="Employee Management System" class="project-image" />
+        <div class="project-content">
+          <h3>Employee Management System</h3>
+          <p>
+            A web-based system built using <strong>Django</strong> and
+            <strong>MySQL</strong> for managing employee records and salary
+            details. Includes CRUD operations, separate forms for employee
+            and salary modules, and a responsive
+            <strong>Bootstrap</strong> UI for an intuitive user experience.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Django</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Console-Based Bank Application -->
+      <div class="project-card">
+        <img src="Images/Gemini_Generated_Image_dnpczvdnpczvdnpc.png" alt="Banking Console App" class="project-image" />
+        <div class="project-content">
+          <h3>Console-Based Bank Application</h3>
+          <p>
+            A <strong>Core Java</strong> console application simulating
+            basic banking operations such as deposits, withdrawals, and
+            transaction history. Designed using
+            <strong>OOPs</strong> principles with
+            <strong>ArrayList</strong> and
+            <strong>StringBuilder</strong> for efficient data handling, with
+            plans for <strong>JDBC</strong> integration.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">OOPs</span>
+            <span class="tech-tag">JDBC</span>
+            <span class="tech-tag">ArrayList (Planned)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thomas Travels -->
+      <div class="project-card">
+        <img src="Images/Thomas Travels.png" alt="Thomas Travels" class="project-image" />
+        <div class="project-content">
+          <h3>Thomas Travels</h3>
+          <p>
+            A <strong>Core Java</strong> console-based application developed
+            to manage travel bookings and packages. Implemented using
+            <strong>OOPs</strong> concepts and <strong>Arrays</strong> to
+            store and process customer and booking data efficiently. Focused
+            on modular design and reusability through well-structured
+            classes and methods.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">OOPs</span>
+            <span class="tech-tag">Arrays</span>
+            <span class="tech-tag">Console Application</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cloud Cook — Recipe Page -->
+      <div class="project-card">
+        <img
+          src="Images/DALL·E 2025-02-13 12.35.39 - A modern and professional logo for 'Cloud Cook' app, featuring a clean cloud shape combined with a chef’s hat and a subtle cooking element, such as a .webp"
+          alt="Cloud Cook Recipe Page" class="project-image" />
+        <div class="project-content">
+          <h3>Cloud Cook — Recipe Page</h3>
+          <p>
+            A responsive <strong>frontend recipe webpage</strong> that
+            showcases food recipes and dishes with a clean and modern
+            layout. Designed using
+            <strong>HTML, CSS, and JavaScript</strong> to provide an
+            engaging user experience and visually appealing presentation.
+            Focused on responsive design and smooth navigation for both
+            desktop and mobile users.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Responsive Design</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/kiranadimulam2002/Cloud-Cook-Project" target="_blank" class="btn-github">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <!-- <a href="https://your-live-demo-link.com/cloud-cook" target="_blank" class="btn-demo">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Maple Tech Solutions — Company Website -->
+      <div class="project-card">
+        <img
+          src="Images/DALL·E 2025-02-12 16.05.25 - A professional and modern logo for 'Maple Tech Solutions', a web development and SEO optimization company. The logo should have a sleek, tech-inspired.webp"
+          alt="Maple Tech Solutions Website" class="project-image" />
+        <div class="project-content">
+          <h3>Maple Tech Solutions — Company Website</h3>
+          <p>
+            Designed and developed a professional company website for
+            <strong>Maple Tech Solutions</strong> featuring service
+            listings, about section, and contact forms. Built with
+            <strong>HTML, CSS, JavaScript,</strong> and a responsive
+            <strong>Bootstrap</strong> layout for a polished corporate look.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Bootstrap</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/kiranadimulam2002/Maple-Tech-Solutions" target="_blank" class="btn-github">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <!-- <a href="https://your-live-demo-link.com/maple-tech" target="_blank" class="btn-demo">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <h3>Python</h3>
+        <p>Hackerrank</p>
+        <p class="date">2023</p>
+      </div>
+      <div class="cert-card">
+        <h3>SQL</h3>
+        <p>Hackerrank</p>
+        <p class="date">2023</p>
+      </div>
+      <div class="cert-card">
+        <h3>Developer Job Simulation</h3>
+        <p>Accenture | Forage</p>
+        <p class="date">2023</p>
+      </div>
+      <div class="cert-card">
+        <h3>Advanced Java with Spring Boot & Microservices</h3>
+        <p>Frontlines Edutech</p>
+        <p class="date">2025</p>
+      </div>
+      <div class="cert-card">
+        <h3>Linux</h3>
+        <p>Frontlines Edutech</p>
+        <p class="date">2025</p>
+      </div>
+      <!-- <div class="cert-card">
+        <h3>React - The Complete Guide</h3>
+        <p>Udemy</p>
+        <p class="date">2023</p>
+      </div> -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <div class="about-content" style="margin-bottom: 30px">
+      <p>
+        I'm actively seeking opportunities to contribute to innovative
+        projects and grow as a Full Stack Developer. Feel free to reach out
+        through the form below or connect with me on social media!
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3 style="color: #00ffff; margin-bottom: 20px">
+          Contact Information
+        </h3>
+        <div class="contact-item">
+          <span class="icon">📧</span>
+          <div>
+            <strong>Email</strong><br />
+            <a href="mailto:adimulamkiran2@gmail.com">adimulamkiran2@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="icon">📱</span>
+          <div>
+            <strong>Phone</strong><br />
+            <a href="tel:+1234567890">+91 87907 46456</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="icon">📍</span>
+          <div>
+            <strong>Location</strong><br />
+            <span>Hyderabad, Telangana, India</span>
+          </div>
+        </div>
+
+        <h3 style="color: #00ffff; margin-top: 20px; margin-bottom: 10px">
+          Connect With Me
+        </h3>
+        <div class="social-links">
+          <a href="https://github.com/kiranadimulam2002" target="_blank" class="social-link" title="GitHub">
+            <span>G</span>
+          </a>
+          <a href="https://linkedin.com/in/satya-sai-kiran-adimulam-390623255" target="_blank" class="social-link"
+            title="LinkedIn">
+            <span>in</span>
+          </a>
+          <a href="https://twitter.com/yourusername" target="_blank" class="social-link" title="Twitter">
+            <span>𝕏</span>
+          </a>
+          <a href="https://www.instagram.com/kiran_adimulam/?hl=en" target="_blank" class="social-link"
+            title="Instagram">
+            <span>In</span>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3 style="color: #00ffff; margin-bottom: 20px">
+          Send Me a Message
+        </h3>
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required placeholder="Your Name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject *</label>
+          <input type="text" id="subject" name="subject" required placeholder="Project Inquiry" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" required
+            placeholder="Tell me about your project or opportunity..."></textarea>
+        </div>
+        <button type="button" class="submit-btn" onclick="handleSubmit()">
+          Send Message
+        </button>
+      </div>
+    </div>
+  </section>
+  </div>
+
+</body>
+
+</html>
